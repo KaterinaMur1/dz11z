@@ -6,7 +6,7 @@ from app_advertisements.models import Advertisements
 from django.contrib.auth import get_user_model
 from django.db.models import Count
 from django.db import connection
-from django.http import HttpResponse
+
 
 User = get_user_model()
 
